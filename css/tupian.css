@@ -32,6 +32,104 @@ nav.navbar {
     width: 100%;
     color: #525252;
 }
-.fontsong{
-		font-family:SimSun;
+#dongexinwen ul {
+    padding-left: 0px;
+}
+.dongexinwen_t_active{
+	float:left;
+	border: 1px white solid;
+	border-bottom:0px;
+	padding:0px 5px;
+	background-color: #434040;
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	width: 31%;
+}
+.dongexinwen_t{
+	float:left;
+	border-bottom:1px white solid;
+	padding:0px 5px;
+	background-color: white;
+	text-align: center;
+	color:black;
+	font-size: 1.2em;
+	width: 30%;
+}
+.dongexinwen_t_div{
+	margin-bottom: 14px!important;
+}
+#dongexinwen li{
+  color:black!important;
+  line-height:1.7em;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  list-style-position: inside;
+  padding-left:1px;
+  padding-top: 5px;
+}
+.midrow1  a:hover, a:focus, a:active {
+    color: red;
+    text-decoration: none;
+}
+.midrow1 a {
+    color: #525252;
+}
+
+
+
+.gongsichanpindaohang1{
+
+		width:34%;
+		text-align:center;
+		background-color:#434040;
+		padding:1px;
+		color:white;
+		font-family:Microsoft YaHei,SimHei;
+		font-size: 18px;
+	}
+	.gongsichanpindaohang2{
+
+		width:33%;
+		text-align:center;
+		background-color:#cdcccc;
+		padding:1px;
+		color:black;
+		font-family:Microsoft YaHei,SimHei;
+		font-size: 18px;
+	}
+	.gongsichanpinshow1{
+		width:90%;
+		position:relative;
+		float:left;
+		text-align:left;
+		display:block;
+		overflow:hidden;
+	}
+	.gongsichanpinshow2{
+		width:90%;
+		position:relative;
+		float:left;
+		text-align:left;
+		display:none;
+		overflow:hidden;
+	}
+	.gongsichanpinitem{
+		position:absolute;
+		top:0px;
+		width:33%;
+		text-align:center;
+	}
+	.gongsichanpinleftbutton{
+		float:left;
+		margin-top:11%;
+		width:5%;
+
+	}
+	.gongsichanpinrightbutton{
+		float:right;
+		margin-top:11%;
+		width:5%;
+		text-align:right;
 	}
