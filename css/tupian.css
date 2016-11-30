@@ -1,0 +1,7 @@
+.heardernav1{
+  display:block;
+  background-image:url('images/head1.jpg');
+  border:0px;
+  border-bottom:0px solid black;
+  z-index:1000;
+}
