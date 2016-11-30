@@ -6,13 +6,74 @@
   <title>首页|红松参果片</title>
   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/tupian.css">
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <header>
-   		<nav class="navbar navbar-default headernav1" role="navigation">
-      </nav>
-      <nav class="navbar navbar-default headernav2" role="navigation">
-      </nav>
-  </header>
+  <div class="content">
+      <header>
+       		<nav class="navbar navbar-default headernav1" role="navigation" style="height: 43px;">
+          </nav>
+          <nav class="navbar navbar-default headernav2" role="navigation">
+          </nav>
+      </header>
+      <div id="myCarousel" class="carousel slide">
+      	<ol class="carousel-indicators">
+      		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      		<li data-target="#myCarousel" data-slide-to="1"></li>
+      		<li data-target="#myCarousel" data-slide-to="2"></li>
+      	</ol>
+      	<div class="carousel-inner">
+      		<div class="item active">
+      			<img class="img1" src="images/1.jpg" alt="First slide">
+      		</div>
+      		<div class="item">
+      			<img class="img1" src="images/2.jpg" alt="Second slide">
+      		</div>
+      		<div class="item">
+      			<img class="img1" src="images/3.jpg" alt="Third slide">
+      		</div>
+      	</div>
+      	<a class="carousel-control left" href="#myCarousel"
+      	   data-slide="prev"></a>
+      	<a class="carousel-control right" href="#myCarousel"
+      	   data-slide="next"></a>
+      </div>
+      <div class="midrow1 fontsong">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 ">
+              <br>
+              <span class="h4 fonthei"><img src="images/qiyedongtai.jpg" width="65%" alt="企业动态" title="企业动态"></span>
+              <hr style="margin-top: 0px;margin-bottom: 10px;">
+              <div id="dongexinwen">
+                  <ul class="dongexinwen_t_div">
+                    <a href="javascript:void(0)"><div id="dongexinwen_t1" class="dongexinwen_t_active">企业新闻</div></a>
+                    <a href="javascript:void(0)"><div id="dongexinwen_t2" class="dongexinwen_t">养生信息</div></a>
+                    <a href="javascript:void(0)"><div id="dongexinwen_t3" class="dongexinwen_t">公示公告</div></a>
+                    <div style="clear:both;"></div>
+                  </ul>
+                  <ul id="dongexinwen_div1" class="dongexinwen_div" style="display: block;">
+                      <li><a href="http://www.dongeejiao.com/news/detail/1735.htm" target="_blank">华润医药成功在香港联交所主板挂牌上市</a></li>
+                  </ul>
+                <ul id="dongexinwen_div2" class="dongexinwen_div" style="display: none;">
+                      <li><a href="http://www.dongeejiao.com/news/4/35/1714.htm" target="_blank">阿胶最经典服用方法——自制阿胶糕</a></li>
+                </ul>
+                <ul id="dongexinwen_div3" class="dongexinwen_div" style="display: none;">
+                      <li><a href="http://www.dongeejiao.com/tender/92.htm" target="_blank">污水处理工程资格预审公告</a></li>
+                </ul>
+                <div class="buttonDiv">
+                  <a href="http://www.dongeejiao.com/news.htm" title="了解更多" class="dongexinwenReadMore" target="_blank">
+                    <img src="./首页_东阿阿胶_files/readmore.png">
+                  </a>
+                </div>
+              </div>
+              <div style="clear:both;"></div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 </body>
 </html>
