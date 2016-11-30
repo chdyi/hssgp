@@ -1,7 +1,23 @@
-.heardernav1{
+.headernav1{
   display:block;
-  background-image:url('images/head1.jpg');
+  background-image:url('../images/head1.jpg');
   border:0px;
   border-bottom:0px solid black;
   z-index:1000;
 }
+.headernav2{
+  color:#e7b643;
+  background-image:url('../images/head2.jpg');
+  border:0px;
+  border-top:1px solid black;
+  z-index: 990;
+}
+nav.navbar {
+    border-radius: 0px;
+    background-repeat: repeat;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    min-height: 35px;
+  }
