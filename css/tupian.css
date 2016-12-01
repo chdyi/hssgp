@@ -77,59 +77,25 @@ nav.navbar {
     color: #525252;
 }
 
-
-
-.gongsichanpindaohang1{
-
-		width:34%;
-		text-align:center;
-		background-color:#434040;
-		padding:1px;
-		color:white;
+footer {
+    color: #87919F;
+    font-size: 13px;
+    overflow: hidden;
+}
+footer a, footer a:hover {
+    color: #fff;
+}
+.fonthei{
 		font-family:Microsoft YaHei,SimHei;
-		font-size: 18px;
 	}
-	.gongsichanpindaohang2{
-
-		width:33%;
-		text-align:center;
-		background-color:#cdcccc;
-		padding:1px;
-		color:black;
-		font-family:Microsoft YaHei,SimHei;
-		font-size: 18px;
-	}
-	.gongsichanpinshow1{
-		width:90%;
-		position:relative;
-		float:left;
-		text-align:left;
-		display:block;
-		overflow:hidden;
-	}
-	.gongsichanpinshow2{
-		width:90%;
-		position:relative;
-		float:left;
-		text-align:left;
-		display:none;
-		overflow:hidden;
-	}
-	.gongsichanpinitem{
-		position:absolute;
-		top:0px;
-		width:33%;
-		text-align:center;
-	}
-	.gongsichanpinleftbutton{
-		float:left;
-		margin-top:11%;
-		width:5%;
-
-	}
-	.gongsichanpinrightbutton{
-		float:right;
-		margin-top:11%;
-		width:5%;
-		text-align:right;
-	}
+.footlink {
+      font-family: microsoft yahei,simhei;
+      font-size: 9px;
+      margin: auto;
+      text-align: center;
+  }
+a:link, a:visited, a:hover, a:active {
+    font-family: "Microsoft YaHei",SimHei,Arial,SimSun;
+    text-decoration: none;
+    outline: 0;
+}
